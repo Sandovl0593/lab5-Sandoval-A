@@ -47,9 +47,13 @@ def ejercicio2(num1, num2):
 def ejercicio3(a, b, c):
     # Su código va aquí
     
+    a = int(a)
+    b = int(b)
+    c = int(c)
     num = [a, b, c]
     z = num.sort()
-    return z[1:-1]
+    f = str(z[1:-1])
+    return f
 
 
 if __name__ == '__main__':
